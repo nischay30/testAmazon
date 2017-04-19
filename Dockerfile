@@ -4,4 +4,4 @@ WORKDIR /usr/demo
 COPY . .
 RUN ls -ls
 RUN npm install
-CMD ["npm", "start"]
+CMD ["npm", "run", "express"]
