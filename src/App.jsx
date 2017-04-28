@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import HomePage from './components/HomePage.jsx';
 
-import { Router, Route, hashHistory, browserHistory } from 'react-router';
-import RaisedButton from 'material-ui/RaisedButton';
+import { Router, Route, hashHistory } from 'react-router';
 
 injectTapEventPlugin();
 class App extends Component {
