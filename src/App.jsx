@@ -14,7 +14,7 @@ class App extends Component {
         <MuiThemeProvider>
           <div>
             <Router history={hashHistory}>
-              <Route path='/' component= { HomePage }/>
+              <Route path='/' component={ HomePage }/>
             </Router>        
           </div>
         </MuiThemeProvider>
