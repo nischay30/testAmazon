@@ -5,8 +5,8 @@ script:
   - npm run build
   - npm test
 deploy:
-provider: pages
-skip_cleanup: true
-github_token: e2839ada2bc53a023dd979ff9b068e303486333e
-on:
-  branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: e2839ada2bc53a023dd979ff9b068e303486333e
+  on:
+    branch: master
