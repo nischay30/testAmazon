@@ -91,7 +91,7 @@ class HomePage extends Component {
 							type='text'
 							required
 						/>
-						<label style={{fontSize: 30}}> Enter phoneNumber: </label>
+						<label style={{fontSize: 30}}> Enter poneNumber: </label>
 						<TextField
 							id={`${this.state.number}p`}
 							value={this.state.number}
