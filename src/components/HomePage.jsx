@@ -83,7 +83,7 @@ class HomePage extends Component {
 							: null
 					}
 					<form onSubmit={ this.handleFormSubmit}>
-						<label style={{fontSize: 30}}> Enter mame: </label>
+						<label style={{fontSize: 30}}> Enter Name: </label>
 						<TextField
 						  id={`${this.state.name}n`}
 							value={this.state.name}
